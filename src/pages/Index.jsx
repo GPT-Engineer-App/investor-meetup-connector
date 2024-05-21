@@ -14,7 +14,7 @@ const Index = () => {
       justifyContent="center"
       alignItems="center"
       bg="#21E09B"
-      maxWidth="100vw"
+      maxWidth="1200px"
     >
       <VStack spacing={4} maxWidth="100vw">
         <Heading as="h1" size="2xl" textAlign="center" color="white">Welcome to the Greens Investor Meetup</Heading>
