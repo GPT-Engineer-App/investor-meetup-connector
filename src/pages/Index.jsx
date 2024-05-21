@@ -1,17 +1,23 @@
-// Update this page (the content is just a fallback if you fail and example)
-// Use chakra-ui
-import { Container, Text, VStack } from "@chakra-ui/react";
-
-// Example of using react-icons
-// import { FaRocket } from "react-icons/fa";
-// <IconButton aria-label="Add" icon={<FaRocket />} size="lg" />; // IconButton would also have to be imported from chakra
+import { Container, Text, VStack, Heading, Box, Image, Button } from "@chakra-ui/react";
+import { FaRocket } from "react-icons/fa";
 
 const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Your Blank Canvas</Text>
-        <Text>Chat with the agent to start making edits.</Text>
+        <Heading as="h1" size="2xl" textAlign="center">Welcome to the Greens Investor Meetup</Heading>
+        <Text fontSize="lg" textAlign="center">
+          Excited to invite you all to our next gathering! The location is still being explored/upgraded and the agenda will primarily be the usual - fun & making sure you know everyone in the community that could help you!
+        </Text>
+        <Box boxSize="sm">
+          <Image src="/path/to/your/image.jpg" alt="Investor Meetup" />
+        </Box>
+        <Text fontSize="md" textAlign="center">
+          As we grow and our events grow, we’re still very focused on them being high-trust by keeping it to those on the inside - startup founders who let us back them, advisors, Greens members/investors and our newest addition, Seed Booster investors.
+        </Text>
+        <Button rightIcon={<FaRocket />} colorScheme="teal" variant="solid" size="lg">
+          Join the Meetup
+        </Button>
       </VStack>
     </Container>
   );
