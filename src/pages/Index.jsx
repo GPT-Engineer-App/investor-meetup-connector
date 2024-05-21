@@ -3,7 +3,7 @@ import { FaRocket } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="#21E09B">
       <VStack spacing={4}>
         <Heading as="h1" size="2xl" textAlign="center">Welcome to the Greens Investor Meetup</Heading>
         <Text fontSize="lg" textAlign="center">
