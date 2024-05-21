@@ -17,17 +17,17 @@ const Index = () => {
       maxWidth="100vw"
     >
       <VStack spacing={4} maxWidth="100vw">
-        <Heading as="h1" size="2xl" textAlign="center">Welcome to the Greens Investor Meetup</Heading>
-        <Text fontSize="lg" textAlign="center">
+        <Heading as="h1" size="2xl" textAlign="center" color="white">Welcome to the Greens Investor Meetup</Heading>
+        <Text fontSize="lg" textAlign="center" color="white">
           Excited to invite you all to our next gathering! The location is still being explored/upgraded and the agenda will primarily be the usual - fun & making sure you know everyone in the community that could help you!
         </Text>
         <Box boxSize="sm">
           <Image src="https://d33wubrfki0l68.cloudfront.net/7ef13f6a84110c15f68eed7eef50087a8c7328b5/f8e93/img/logo.svg" alt="Investor Meetup Logo" filter="hue-rotate(90deg) saturate(200%);" />
         </Box>
-        <Text fontSize="md" textAlign="center">
+        <Text fontSize="md" textAlign="center" color="white">
           As we grow and our events grow, we’re still very focused on them being high-trust by keeping it to those on the inside - startup founders who let us back them, advisors, Greens members/investors and our newest addition, Seed Booster investors.
         </Text>
-        <Button rightIcon={<FaRocket />} colorScheme="teal" variant="solid" size="lg">
+        <Button rightIcon={<FaRocket />} colorScheme="teal" variant="solid" size="lg" color="white">
           Join the Meetup
         </Button>
       </VStack>
