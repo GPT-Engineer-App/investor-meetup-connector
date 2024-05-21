@@ -14,8 +14,9 @@ const Index = () => {
       justifyContent="center"
       alignItems="center"
       bg="#21E09B"
-      >
-      <VStack spacing={4} maxWidth="800px" width="100%" padding="4">
+      maxWidth="1200px"
+    >
+      <VStack spacing={4} maxWidth="100vw">
         <Heading as="h1" size="2xl" textAlign="center" color="white">Welcome to the Greens Investor Meetup</Heading>
         <Text fontSize="lg" textAlign="center" color="white">
           Excited to invite you all to our next gathering! The location is still being explored/upgraded and the agenda will primarily be the usual - fun & making sure you know everyone in the community that could help you!
